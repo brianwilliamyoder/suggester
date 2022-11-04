@@ -8,12 +8,15 @@
 </head>
 <body>
   <h1>Programming Language Selector</h1>
-  <h2>Fill out the following information to find out which programming language is for you!</h2>
+  <br>
 
-  <h4>If you could be one of the following animals, which would you be?</h4>
+  <h2>Fill out the following information to find out which programming language is for you!</h2>
+  <br>
+  
   <form id="PLS">
-    <label for="checklist">1st field:</label>
-    <select id="animal">
+    <h4>If you could be one of the following animals, which would you be?</h4>
+    <label for="animal-list"></label>
+    <select id="animal-list">
       <option>Tiger</option>
       <option>Pony</option>
       <option>Racoon</option>
@@ -21,20 +24,47 @@
       <option>Tarantula</option>
     </select>
     <br>
-    <h4>Choose a preferred food</h4>
+    <br>
 
-    
-      <input type="radio"
+    <h4>Choose a preferred food</h4>
+    <input type="radio"
 name="food" value="hotdog" id="hd" checked> 
-      <label for="hd">Hotdog</label><br>
-      <input type="radio" name="food" value="hamburger" id="burg"> 
-      <label for="burg">Hamburger</label><br>
-      <input type="radio" name="food" value="kimchi" id="kim">
-      <label for="kim">Kimchi</label><br>
-      <input type="radio" name="food" value="celery juice" id="cj">
-      <label for="cj">Celery Juice</label><br>
-      <input type="radio" name="food" value="buffalo wings" id="bw">
-      <label for="bw">Buffalo Wings(extra spicy)</label><br>
+    <label for="hd">Hotdog</label><br>
+    <input type="radio" name="food" value="hamburger" id="burg"> 
+    <label for="burg">Hamburger</label><br>
+    <input type="radio" name="food" value="kimchi" id="kim">
+    <label for="kim">Kimchi</label><br>
+    <input type="radio" name="food" value="celery juice" id="cj">
+    <label for="cj">Celery Juice</label><br>
+    <input type="radio" name="food" value="buffalo wings" id="bw">
+    <label for="bw">Buffalo Wings(extra spicy)</label>
+    <br>
+    <br>
+
+    <h4 id="live">If you could live anywhere in the world, where would it be?</h4>
+    <input id="live" type="text" name="live"> 
+    <br>
+    <br>
+
+    <h4 id="color">Which color describes your personality most accurately?</h4>
+    <input id="color" type="color">
+    <br>
+    <br>
+
+    <h4>Which of the following do you gravitate to the most?</h4>
+    <label for="preferences"></label>
+    <select id="preferences">
+      <option>Math</option>
+      <option>Athletics</option>
+      <option>Art</option>
+      <option>Music</option>
+      <option>Science</option>
+    </select>
+    <br>
+    <br>
+
+
+
      
 
 
