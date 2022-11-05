@@ -12,7 +12,6 @@ window.addEventListener("load", function() {
     let assembly = "Assembly Language"
     let swift = "Swift"
     let foodAnswer = document.querySelector("input[name='food']:checked").value;
-    
 
     if (foodAnswer === "hotdog") {
       output = python;
@@ -35,7 +34,7 @@ window.addEventListener("load", function() {
       div.removeAttribute("class");
   
   })
-})
+  })
 })
 
 
