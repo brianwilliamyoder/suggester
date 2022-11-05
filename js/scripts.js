@@ -1,37 +1,43 @@
-
-let python = "Python"
-let javascript = "Javascript"
-let ruby = "Ruby"
-let assembly = "Assembly Language"
-let swift = "Swift"
-
-
 window.addEventListener("load", function() {
+  const div = document.getElementById("output");
   const form = document.querySelector("form");
-  const button = document.getElementById("submit");
+  const h1 = document.getElementById("h1");
+  const h2 = document.getElementById("h2");
 
   form.addEventListener("submit", function(event) {
     event.preventDefault();
-    const foodAnswer = document.querySelector("input[name='food']:checked").value;
+    let python = "Python"
+    let javascript = "Javascript"
+    let ruby = "Ruby"
+    let assembly = "Assembly Language"
+    let swift = "Swift"
+    /*let output = document.querySelector("span#langauge")*/
+    let foodAnswer = document.querySelector("input[name='food']:checked").value;
 
+    let output;
     if (foodAnswer === "hotdog") {
-      document.querySelector("span#language") = python;
+      output = python;
     } else if (foodAnswer === "hamburger") {
-      document.querySelector("span#language") = javascript;
+      output = javascript;
     } else if (foodAnswer === "kimchi") {
-      document.querySelector("span#language") = ruby;
+      output = ruby;
     } else if (foodAnswer === "celeryjuice") {
-      document.querySelector("span#language") = assembly;
+      output = assembly;
     } else if (foodAnswer === "buffalowings") {
-      document.querySelector("span#language") = swift
+      output = swift;
     }
-    
+    /*document.querySelector("span#language") = output;*/
+  
   
   form.addEventListener("submit", function() {
-      button.removeAttribute("class");
+      h1.setAttribute("class", "hidden");
+      h2.setAttribute("class", "hidden");
       form.setAttribute("class", "hidden");
+      div.removeAttribute("class");
   
-  })})})
+  })
+})
+})
 
 
 
