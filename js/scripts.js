@@ -11,10 +11,9 @@ window.addEventListener("load", function() {
     let ruby = "Ruby"
     let assembly = "Assembly Language"
     let swift = "Swift"
-    /*let output = document.querySelector("span#langauge")*/
     let foodAnswer = document.querySelector("input[name='food']:checked").value;
+    
 
-    let output;
     if (foodAnswer === "hotdog") {
       output = python;
     } else if (foodAnswer === "hamburger") {
@@ -26,8 +25,8 @@ window.addEventListener("load", function() {
     } else if (foodAnswer === "buffalowings") {
       output = swift;
     }
-    /*document.querySelector("span#language") = output;*/
-  
+    
+    document.querySelector("span#language").innerText = output;
   
   form.addEventListener("submit", function() {
       h1.setAttribute("class", "hidden");
