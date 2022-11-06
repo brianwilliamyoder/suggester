@@ -2,7 +2,7 @@
 
 #### By _**Brian Yoder**_
 
-#### _An app that takes user preferences and makes suggests which programming language to learn_
+#### _An app that takes user preferences and suggests which programming language to learn_
 
 ## Technologies Used
 
