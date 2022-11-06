@@ -1,8 +1,8 @@
 window.addEventListener("load", function() {
-  const div = document.getElementById("output");
+  const outputdiv = document.getElementById("output");
   const form = document.querySelector("form");
-  const h1 = document.getElementById("h1");
-  const h2 = document.getElementById("h2");
+  const headerdiv = document.getElementById("headerdiv");
+
 
   form.addEventListener("submit", function(event) {
     event.preventDefault();
@@ -28,12 +28,12 @@ window.addEventListener("load", function() {
     document.querySelector("span#language").innerText = output;
   
   form.addEventListener("submit", function() {
-      h1.setAttribute("class", "hidden");
-      h2.setAttribute("class", "hidden");
+      headerdiv.setAttribute("class", "hidden");
       form.setAttribute("class", "hidden");
-      div.removeAttribute("class", "hidden");
-      div.setAttribute("class", "largefont");
-  
+      outputdiv.removeAttribute("class", "hidden");
+      
+      
+
   })
   })
 })

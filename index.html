@@ -6,31 +6,31 @@
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <title>Programming Language Selector</title>
 </head>
-
 <body>
+
   <div id="backgroundimage">
-    <div class="headerdiv">
+    <div id="headerdiv">
       <h1 id="h1" class = "h1font">Programming Language Selector</h1>
       <br>
-      <h2 id = "h2" class="h2font">Fill out the survey to the right to see which of the following programming languages you should try!</h2>
+      <h2 id = "h2" class="h2font">Fill out the survey below to the right to see which of the following programming languages you should try!</h2>
       <br>
       <br>
-      <ul class="ulfont">
-        <li>Ruby</li>
-        <li>Swift</li>
-        <li>Javascript</li>
-        <li>Python</li>
-        <li>Assembly Language</li>
-      </ul>
-      <br>
+      <div id="pdiv">
+        <p>Ruby</p>
+        <p>Swift</p>
+        <p>Assembly Language</p>
+        <p>Javascript</p>
+        <p>Python</p>
+      </div>
     </div>
+    <br>
 
     <!--Animal Question-->
-    <form id="PLS">
+    <form id="form">
       <h4>If you could be one of the following animals, which would you be?</h4>
       <label for="animal-list"></label>
       <select id="animal-list">
-        <option>Tiger</option>
+        <option class="para">Tiger</option>
         <option>Pony</option>
         <option>Racoon</option>
         <option>Shark</option>
@@ -67,7 +67,7 @@
       <br>
 
       <!--Interests Question-->
-      <h4>Which of the following do you gravitate to the most?</h4>
+      <h4">Which of the following do you gravitate to the most?</h4>
       <label for="preferences"></label>
       <select id="preferences">
         <option>Math</option>
@@ -80,16 +80,12 @@
       <br>
       <button type="submit" id="submit">Submit</button>
     </form>
-  </div>
-
     
   <!--Hidden Output Div-->
-  <div id="output" class="hidden">
-    <div id="backgroundimage">
-    <p"><span id="language">___</span> would be a great choice for you!</p>
+    <div id="output" class="hidden">
+       <p><span id="language">___</span> would be a great choice for you!</p>
     </div>
   </div>
-   
 </body>
 </html>
 

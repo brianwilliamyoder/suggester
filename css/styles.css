@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300&display=swap');
 
 .hidden {
@@ -19,21 +17,38 @@
   font-size: large;
 }
 
+.h4font {
+  font-size: large;
+  font-style: oblique;
+  
+}
+
 .largefont {
   font-family: 'Roboto Mono';
   font-size: 100px;
+}
+
+#pdiv {
+  margin: 20px;
+  padding: 5px;
+  border: 3px;
+  display: block;
+  font-style: italic;
+  font-family: 'Roboto Mono';
 }
 
 #backgroundimage {
   background-image: url('../img/pinkclouds.jpg');
   background-size: cover;
   background-position: 0 -100px;
+  background-repeat: no-repeat;
+  height: 100vh;
   display: flex;
   
  
 }
 
-.headerdiv {
+#headerdiv {
   background-color: rgba(166, 182, 241, 0.8);
   background-size: auto; 
 }
