@@ -8,3 +8,32 @@
 .hidden {
   display: none;
 }
+
+.h1font {
+  font-family: 'Roboto Mono';
+}
+
+.h2font {
+  font-family: 'Roboto Mono';
+  font-weight: 500;
+  font-size: large;
+}
+
+.largefont {
+  font-family: 'Roboto Mono';
+  font-size: 100px;
+}
+
+#backgroundimage {
+  background-image: url('../img/pinkclouds.jpg');
+  background-size: cover;
+  background-position: 0 -100px;
+  display: flex;
+  
+ 
+}
+
+.headerdiv {
+  background-color: rgba(166, 182, 241, 0.8);
+  background-size: auto; 
+}

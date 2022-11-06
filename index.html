@@ -8,72 +8,88 @@
 </head>
 
 <body>
-  <h1 id="h1">Programming Language Selector</h1>
-  <br>
-  <h2 id = "h2">Fill out the following information to find out which programming language is for you!</h2>
-  <br>
+  <div id="backgroundimage">
+    <div class="headerdiv">
+      <h1 id="h1" class = "h1font">Programming Language Selector</h1>
+      <br>
+      <h2 id = "h2" class="h2font">Fill out the survey to the right to see which of the following programming languages you should try!</h2>
+      <br>
+      <br>
+      <ul class="ulfont">
+        <li>Ruby</li>
+        <li>Swift</li>
+        <li>Javascript</li>
+        <li>Python</li>
+        <li>Assembly Language</li>
+      </ul>
+      <br>
+    </div>
 
-  <!--Animal Question-->
-  <form id="PLS">
-    <h4>If you could be one of the following animals, which would you be?</h4>
-    <label for="animal-list"></label>
-    <select id="animal-list">
-      <option>Tiger</option>
-      <option>Pony</option>
-      <option>Racoon</option>
-      <option>Shark</option>
-      <option>Tarantula</option>
-    </select>
-    <br>
-    <br>
+    <!--Animal Question-->
+    <form id="PLS">
+      <h4>If you could be one of the following animals, which would you be?</h4>
+      <label for="animal-list"></label>
+      <select id="animal-list">
+        <option>Tiger</option>
+        <option>Pony</option>
+        <option>Racoon</option>
+        <option>Shark</option>
+        <option>Tarantula</option>
+      </select>
+      <br>
+      <br>
 
-    <!--Food Question-->
-    <h4>Choose a preferred food</h4>
-    <input type="radio" name="food" value="hotdog" id="hd" checked> 
-    <label for="hd">Hotdog</label><br>
-    <input type="radio" name="food" value="hamburger" id="burg"> 
-    <label for="burg">Hamburger</label><br>
-    <input type="radio" name="food" value="kimchi" id="kim">
-    <label for="kim">Kimchi</label><br>
-    <input type="radio" name="food" value="celeryjuice" id="cj">
-    <label for="cj">Celery Juice</label><br>
-    <input type="radio" name="food" value="buffalowings" id="bw">
-    <label for="bw">Buffalo Wings(extra spicy)</label>
-    <br>
-    <br>
+      <!--Food Question-->
+      <h4>Choose a preferred food</h4>
+      <input type="radio" name="food" value="hotdog" id="hd" checked> 
+      <label for="hd">Hotdog</label><br>
+      <input type="radio" name="food" value="hamburger" id="burg"> 
+      <label for="burg">Hamburger</label><br>
+      <input type="radio" name="food" value="kimchi" id="kim">
+      <label for="kim">Kimchi</label><br>
+      <input type="radio" name="food" value="celeryjuice" id="cj">
+      <label for="cj">Celery Juice</label><br>
+      <input type="radio" name="food" value="buffalowings" id="bw">
+      <label for="bw">Buffalo Wings(extra spicy)</label>
+      <br>
+      <br>
 
-    <!--Location Question-->
-    <h4 id="live">If you could live anywhere in the world, where would it be?</h4>
-    <input id="live" type="text" name="live"> 
-    <br>
-    <br>
+      <!--Location Question-->
+      <h4 id="live">If you could live anywhere in the world, where would it be?</h4>
+      <input id="live" type="text" name="live"> 
+      <br>
+      <br>
 
-    <!--Color Question-->
-    <h4 id="color">Which color describes your personality most accurately?</h4>
-    <input id="color" type="color">
-    <br>
-    <br>
+      <!--Color Question-->
+      <h4 id="color">Which color describes your personality most accurately?</h4>
+      <input id="color" type="color">
+      <br>
+      <br>
 
-    <!--Interests Question-->
-    <h4>Which of the following do you gravitate to the most?</h4>
-    <label for="preferences"></label>
-    <select id="preferences">
-      <option>Math</option>
-      <option>Athletics</option>
-      <option>Art</option>
-      <option>Music</option>
-      <option>Science</option>
-    </select>
-    <br>
-    <br>
-    <button type="submit" id="submit">Submit</button>
-  </form>
-
-    <!--Hidden Output Div-->
-  <div id="output" class="hidden">
-    <p"><span id="language">___</span> would be a great choice for you!</p>
+      <!--Interests Question-->
+      <h4>Which of the following do you gravitate to the most?</h4>
+      <label for="preferences"></label>
+      <select id="preferences">
+        <option>Math</option>
+        <option>Athletics</option>
+        <option>Art</option>
+        <option>Music</option>
+        <option>Science</option>
+      </select>
+      <br>
+      <br>
+      <button type="submit" id="submit">Submit</button>
+    </form>
   </div>
 
+    
+  <!--Hidden Output Div-->
+  <div id="output" class="hidden">
+    <div id="backgroundimage">
+    <p"><span id="language">___</span> would be a great choice for you!</p>
+    </div>
+  </div>
+   
 </body>
 </html>
 

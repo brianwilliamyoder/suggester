@@ -31,7 +31,8 @@ window.addEventListener("load", function() {
       h1.setAttribute("class", "hidden");
       h2.setAttribute("class", "hidden");
       form.setAttribute("class", "hidden");
-      div.removeAttribute("class");
+      div.removeAttribute("class", "hidden");
+      div.setAttribute("class", "largefont");
   
   })
   })
