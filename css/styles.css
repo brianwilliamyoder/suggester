@@ -39,11 +39,7 @@
 
 #backgroundimage {
   background-image: url('../img/pinkclouds.jpg');
-  background-size: auto;
-  background-position: 0 -100px;
-  background-repeat: no-repeat;
-  height: 110vh;
-  display: flex;
+  background-size: cover;
   
  
 }

@@ -2,6 +2,7 @@ window.addEventListener("load", function() {
   const outputdiv = document.getElementById("output");
   const form = document.querySelector("form");
   const headerdiv = document.getElementById("headerdiv");
+  
 
 
   form.addEventListener("submit", function(event) {
