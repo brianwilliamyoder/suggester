@@ -24,7 +24,7 @@ window.addEventListener("load", function() {
     } else if (foodAnswer === "buffalowings") {
       output = swift;
     }
-    
+
     document.querySelector("span#language").innerText = output;
   
   form.addEventListener("submit", function() {
