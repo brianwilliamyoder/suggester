@@ -2,7 +2,7 @@
 
 #### By _**Brian Yoder**_
 
-#### _An app that takes user preferences and suggests which programming language to learn_
+#### _An app that takes user preferences and suggests which programming language to learn._
 
 ## Technologies Used
 
@@ -21,7 +21,7 @@
 * Enjoy your coding adventure!
 
 ## GitHub Pages
-* [Portfolio Landing Page](https://brianwilliamyoder.github.io/suggester/)
+* [Programming Language Suggester](https://brianwilliamyoder.github.io/suggester/)
 
 ## Known Bugs
 
