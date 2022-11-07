@@ -25,7 +25,7 @@
 
 ## Known Bugs
 
-*Output does not appear after submit button is presed
+* All bugs fixed! 
 
 ## [License](https://mit-license.org/)
 
