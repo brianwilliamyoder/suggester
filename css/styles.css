@@ -25,8 +25,14 @@
 
 .largefont {
   font-family: 'Roboto Mono';
-  font-size: 100px;
+  font-size: 70px;
 }
+
+.backgroundimage {
+  background-image: url('../img/pinkclouds.jpg');
+  background-size: auto;
+}
+  
 
 #pdiv {
   margin: 20px;
@@ -37,14 +43,14 @@
   font-family: 'Roboto Mono';
 }
 
-#backgroundimage {
-  background-image: url('../img/pinkclouds.jpg');
-  background-size: cover;
-  
- 
-}
+
 
 #headerdiv {
   background-color: rgba(166, 182, 241, 0.8);
   background-size: auto; 
+}
+
+.pinkbg {
+  background-color: rgba(236, 143, 227, 0.8);
+  background-size: auto;
 }

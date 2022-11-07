@@ -3,8 +3,6 @@ window.addEventListener("load", function() {
   const form = document.querySelector("form");
   const headerdiv = document.getElementById("headerdiv");
   
-
-
   form.addEventListener("submit", function(event) {
     event.preventDefault();
     let python = "Python"
@@ -32,9 +30,7 @@ window.addEventListener("load", function() {
       headerdiv.setAttribute("class", "hidden");
       form.setAttribute("class", "hidden");
       outputdiv.removeAttribute("class", "hidden");
-      outputdiv.setAttribute("class", "largefont");
-      
-      
+      outputdiv.setAttribute("class", "pinkbg largefont");
 
   })
   })

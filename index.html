@@ -8,22 +8,24 @@
 </head>
 <body>
 
-  <div id="backgroundimage">
-    <div id="headerdiv">
-      <h1 id="h1" class = "h1font">Programming Language Selector</h1>
-      <br>
-      <h2 id = "h2" class="h2font">Fill out the survey below to see which of the following programming languages you should try!</h2>
-      <div id="pdiv">
-        <p>Ruby</p>
-        <p>Swift</p>
-        <p>Assembly Language</p>
-        <p>Javascript</p>
-        <p>Python</p>
-      </div>
-    </div>
+  
+  <div id="headerdiv">
+    <h1 id="h1" class = "h1font">Programming Language Selector</h1>
     <br>
+    <h2 id = "h2" class="h2font">Fill out the survey below to see which of the following programming languages you should try!</h2>
+    <div id="pdiv">
+      <p>Ruby</p>
+      <p>Swift</p>
+      <p>Assembly Language</p>
+      <p>Javascript</p>
+      <p>Python</p>
+    </div>
+  </div>
+  
 
-    <!--Animal Question-->
+  <!--Animal Question-->
+  <div class="pinkbg">
+    
     <form id="form">
       <h4>If you could be one of the following animals, which would you be?</h4>
       <label for="animal-list"></label>
@@ -78,12 +80,12 @@
       <br>
       <button type="submit" id="submit">Submit</button>
     </form>
-    
-  <!--Hidden Output Div-->
-    <div id="output" class="hidden">
-       <p><span id="language">___</span> would be a great choice for you!</p>
-    </div>
   </div>
+  <!--Hidden Output Div-->
+  <div id="output" class="hidden">
+      <p><span id="language">___</span> would be a great choice for you!</p>
+  </div>
+  
 </body>
 </html>
 
